@@ -1,13 +1,12 @@
 Feature: Submit data to webdriveruniversity.com using contact us form
 
 Scenario: Submit valid data via contact us form
-	Given I access webdriveruniversity contact us form
-	When I enter a valid firstname
-	And I enter a valid last name
-	| woods | jackson | jones |
-	And I enter a valid email address
-	And I enter some comments
-	| Comment One | Comment two |
-	And I click the submit button
-	Then entered comment should be submitted successfully
-	
+Given user access webdriveruniversity contact us form
+When user enter a valid first name
+When user enter a valid last name
+| Woods | Jackson  | Jones |
+And user enter a valid email address
+And user enter comments
+| Comment1  | Comment2 |
+When user click on submit button
+Then user should see successfull submission message

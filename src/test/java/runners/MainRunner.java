@@ -15,7 +15,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 				  plugin = {"pretty",
 						  	"html:target/cucumber",
 						  	"json:/target/cucumber.json",
-						  	"com.cucumber.listener.ExtentCucumberFormatter:output/report.html"
+						  	"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:output/report.html"
 						  	})
 public class MainRunner extends AbstractTestNGCucumberTests {
 
