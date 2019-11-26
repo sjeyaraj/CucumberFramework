@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="POM BDD">
+ <test name="Web driver University Test">
+    
+    
+    <classes>
+
+          <class name="runners.MainRunner" />
+       
+       </classes>
+
+</test>
+
+</suite>

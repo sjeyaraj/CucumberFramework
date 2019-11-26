@@ -2,7 +2,7 @@ package stepDefinitions;
 
 import org.openqa.selenium.TakesScreenshot;
 
-import com.mongodb.MapReduceCommand.OutputType;
+import org.openqa.selenium.OutputType;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
