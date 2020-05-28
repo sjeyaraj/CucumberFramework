@@ -313,8 +313,9 @@ public class BasePage extends DriverFactory {
 
 	/**********************************************************************************
 	 ** ALERT & POPUPS METHODS
+	 * @throws Exception 
 	 **********************************************************************************/
-	public void closePopups(By locator) throws InterruptedException {
+	public void closePopups(By locator) throws Exception {
 		try {
 			List<WebElement> elements = this.wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(locator));
 			for (WebElement element : elements) {
